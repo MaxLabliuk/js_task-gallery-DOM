@@ -8,7 +8,6 @@ galleryList.addEventListener('click', changeImage);
 function changeImage(e) {
   e.preventDefault();
 
-  image.src = e.target.closest('a').href;;
+  image.src = e.target.closest('a').href;
   image.alt = e.target.galleryList;
-
 };
